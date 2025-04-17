@@ -9,6 +9,7 @@
 body {
 	background-color: #ffeaca;
 }
+
 ul {
 	overflow: hidden;
 	background-color: #333;
@@ -41,8 +42,17 @@ li a:hover {
 
 
 }
+.gallery {
+	width: 400px;
+	height: 200px;
+	background-color: red;
+	border: 3px solid #333;
+	margin: 20px auto;
+	padding: 20px;
+	text-align: center;
 
-.huy {
+}
+.StudentProgramThing {
 	display: block;
 	position:relative;
 	width: 200px;
@@ -71,6 +81,49 @@ footer {
 	background-color: grey;
 	color: white;
 }
+.gallery-section {
+	text-align: center;
+	margin: 40px auto;
+	width: 80%;
+}
+
+.gallery-heading{
+	margin-bottom: 20px;
+	font-size: 32px;
+}
+
+.gallery-box{
+	width: 800px;
+	height: 500px;
+	background-color: aqua;
+	border: 5px solid #333;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.image-grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.image-container {
+	width: 30%;
+	margin-bottom: 20px;
+}
+
+.gallery-image{
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	border: 3px solid #333;
+}
+.image-caption {
+	margin-top: 5px;
+	font-weight: bold;
+}
 
 </style>
 </head>
@@ -90,11 +143,51 @@ footer {
 	<div class="item what2">what</div>
 	<div class="item what3">what</div>
 </div>
-<div class="huy">
+<div class="StudentProgramThing">
 	<p>hi</p>
-	<p style="margin-left: 1000px; margin-top: 500px;">e</p>
-	<p style="float: center;"></p>
+
 </div>
+
+<div class="gallery-section">
+	<h1 class="gallery-heading">Gallery</h1>
+	<div class ="gallery-box">
+		<h2>Our Photo Collection</h2>
+		<div class="image-grid">
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 1</p>
+			</div>
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 2</p>
+			</div>
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 3</p>
+			</div>
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 4</p>
+			</div>
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 5</p>
+			</div>
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 6</p>
+			</div>
+						
+		</div>
+	</div>
+</div>
+
 <footer>
 	<p>placeholder</p>
 </footer>
