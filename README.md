@@ -33,3 +33,4 @@ Reference list
 Slaying The Dragon (2022). Learn CSS Positioning Quickly With A Real World Example. YouTube. Available at: https://www.youtube.com/watch?v=MxEtxo_AaZ4.W3School (2020). 
 CSS object-fit Property. [online] www.w3schools.com. Available at: https://www.w3schools.com/css/css3_object-fit.asp.W3Schools (2020).
 CSS Layout - The position Property. [online] W3schools.com. Available at: https://www.w3schools.com/css/css_positioning.asp.
+W3School (2024). CSS Font Size. [online] www.w3schools.com. Available at: https://www.w3schools.com/css/css_font_size.asp.
