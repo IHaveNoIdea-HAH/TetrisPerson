@@ -43,38 +43,8 @@ li a:hover {
 
 
 }
-.CustomerReview {
-	display:flex;
-	flex-wrap: row;
-	justify-content: space-evenly;
-	margin:20px;
-}
-.CustomerReview > div {
-	background: grey;
-	width: 600px;
-	margin: 10px;
-	text-align: center;
-	line-height: 75px;
-	font-size:30px;
-	align-items: center;
-	height: 300px;
-}
-.Articles {
-	display:flex;
-	flex-wrap: row;
-	justify-content: space-evenly;
-	margin:20px;
-}
-.Articles > div {
-	background: grey;
-	width: 300px;
-	margin: 10px;
-	text-align: center;
-	line-height: 75px;
-	font-size:30px;
-	align-items: center;
-	height: 500px;
-}
+
+
 .gallery {
 	width: 400px;
 	height: 200px;
@@ -177,6 +147,13 @@ footer {
 	font-weight: bold;
 }
 
+input[type=text],select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #3e8e41;
+    box-sizing: border-box;
+}
 </style>
 </head>
 <body>
@@ -238,33 +215,24 @@ footer {
 		</div>
 	</div>
 </div>
-<div class="CustomerReview">
-	<div>
-		<h1>Customer Review</h1>
-		<p>Wow this is really good</p>
-	</div>
-	<div>
-		<h1>Customer Review</h1>
-		<p>Wow this is really good</p>
-	</div>
+
+<div>
+    <label for="fullname">Full name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="full name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="The email..">
+
+    <label for="student">Are You A student</label>
+    <select id="student" name="student">
+
+		<option value="choosing">Choose between</option>
+    	<option value="ye">yes</option>
+    	<option value="no">no</option>
+    </select>
+  
 </div>
-<div class ="Articles">
-	<div>
-		<img src="CHICKEN.jpg" alt="chicken" style="width: 100px;height: 100px;margin: 10px;">
-		<p>Article 1</p>
-		<P>Something about articles</P>
-	</div>
-	<div>
-		<img src="CHICKEN.jpg" alt="chicken" style="width: 100px;height: 100px;margin: 10px;">
-		<p>Article 2</p>
-		<P>Something about articles</P>
-	</div>
-	<div>
-		<img src="CHICKEN.jpg" alt="chicken" style="width: 100px;height: 100px;margin: 10px;">
-		<p>Article 3</p>
-		<P>Something about articles</P>
-	</div>
-</div>
+
 
 <footer>
 	<p>placeholder</p>
