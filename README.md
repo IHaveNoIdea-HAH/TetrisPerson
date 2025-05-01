@@ -42,8 +42,19 @@ Once downloaded. Unzip the file and open the "html" folder.
 Click "UserExperience.html" to begin your experience with the website.
 
 
-# Reference list  
-Slaying The Dragon (2022). Learn CSS Positioning Quickly With A Real World Example. YouTube. Available at: https://www.youtube.com/watch?v=MxEtxo_AaZ4.W3School (2020).   
-CSS object-fit Property. [online] www.w3schools.com. Available at: https://www.w3schools.com/css/css3_object-fit.asp.W3Schools (2020).  
-CSS Layout - The position Property. [online] W3schools.com. Available at: https://www.w3schools.com/css/css_positioning.asp.  
-W3School (2024). CSS Font Size. [online] www.w3schools.com. Available at: https://www.w3schools.com/css/css_font_size.asp.  
+# Reference list
+Pot, S. (2016). Making the site ‘longer’. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/37664089/making-the-site-longer.  
+  
+W3School (2024a). CSS Font Size. [online] www.w3schools.com. Available at: https://www.w3schools.com/css/css_font_size.asp.W3School (2024b).  
+
+CSS object-fit Property. [online] www.w3schools.com. Available at: https://www.w3schools.com/css/css3_object-fit.asp.W3Schools (2019a).  
+
+CSS Flexbox (Flexible Box). [online] W3schools.com. Available at: https://www.w3schools.com/css/css3_flexbox.asp.W3Schools (2019b).   
+
+CSS Forms. [online] W3schools.com. Available at: https://www.w3schools.com/css/css_form.asp.W3Schools (2019c).   
+
+CSS Grid Layout. [online] W3schools.com. Available at: https://www.w3schools.com/css/css_grid.asp.W3Schools (2019d).   
+
+HTML Images. [online] W3schools.com. Available at: https://www.w3schools.com/html/html_images.asp.W3Schools (2024).   
+
+HTML button tag. [online] www.w3schools.com. Available at: https://www.w3schools.com/tags/tag_button.asp.  
