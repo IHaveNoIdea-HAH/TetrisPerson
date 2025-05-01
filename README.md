@@ -11,8 +11,7 @@ Booking Form
 Those 3 stages will be the only pages that have functionality.  
 Other buttons, links and other things will not have any function at all.  
   
-## Values
-The values of these project
+
 ## Development
   
 ### VERSION 0.0.1
