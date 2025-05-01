@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background-color: #ffeaca;
+	padding-bottom: 100px;
+}
+
+ul {
+	overflow: hidden;
+	background-color: #333;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	float:left;
+}
+li a {
+
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 43px 20px;
+	margin-right:50px;
+
+	text-decoration: none;
+
+}
+li a:hover {
+	background-color: #555;
+}
+.container {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 10px;
+
+
+}
+
+
+.gallery {
+	width: 400px;
+	height: 200px;
+	background-color: red;
+	border: 3px solid #333;
+	margin: 20px auto;
+	padding: 20px;
+	text-align: center;
+
+}
+.StudentProgramButton {
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 50px;
+	margin-left: 250px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.2s;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+}
+.StudentProgramButton:hover {
+	background-color: #45a049;
+	transform: scale(1.05);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.StudentProgramButton:active {
+	background-color: #3e8e41;
+	transform: scale(0.98);
+}
+.item {
+	display: block;
+	background-color:red;
+	width: 300px;
+	height: 150px;
+	text-align: center;
+	padding: 32px;
+	border: 5px solid #333;
+}
+footer {
+	border-bottom: 10px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5%;
+	text-align: center;
+	padding: 3px;
+	background-color: grey;
+	color: white;
+}
+.gallery-section {
+	text-align: center;
+	margin: 40px auto;
+	width: 80%;
+}
+
+.gallery-heading{
+	margin-bottom: 20px;
+	font-size: 32px;
+}
+
+.gallery-box{
+	width: 800px;
+	height: 500px;
+	background-color: aqua;
+	border: 5px solid #333;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.image-grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.image-container {
+	width: 30%;
+	margin-bottom: 20px;
+}
+
+.gallery-image{
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	border: 3px solid #333;
+}
+.image-caption {
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+input[type=text],select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #3e8e41;
+    box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+<ul>
+	<img src="CHICKEN.jpg" alt="chicken" style="width:104px;height:106px;float:left;margin-right:50px;">
+	<li><a href="#AboutUs">About Us</a></li>
+	<li><a href="PricingNbooking.html">Pricing and Bookings</a></li>
+	<li><a href="#Our Products">Our Products</a></li>
+	<li><a href="#FAQ">FAQ</a></li>
+	<li style="float: right;"><a href="#Signup">Sign Up</a></li>
+	<li style="float: right;"><a href="#Signin">Sign in</a></li>
+</ul>
+<div class="container">
+	<div class="item what">what</div>
+	<div class="item what2">what</div>
+	<div class="item what3">what</div>
+</div>
+
+<a href="#StudentProgram" class="StudentProgramButton">Student Program Sign up</a>
+
+
+<div class="gallery-section">
+	<h1 class="gallery-heading">Gallery</h1>
+	<div class ="gallery-box">
+		<h2>Our Photo Collection</h2>
+		<div class="image-grid">
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 1</p>
+			</div>
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 2</p>
+			</div>
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 3</p>
+			</div>
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 4</p>
+			</div>
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 5</p>
+			</div>
+
+			<div class="image-container">
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
+				<p class="image-caption">Image 6</p>
+			</div>
+						
+		</div>
+	</div>
+</div>
+
+<div>
+    <label for="fullname">Full name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="full name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="The email..">
+
+    <label for="student">Are You A student</label>
+    <select id="student" name="student">
+
+		<option value="choosing">Choose between</option>
+    	<option value="ye">yes</option>
+    	<option value="no">no</option>
+    </select>
+  
+</div>
+
+
+<footer>
+	<p>placeholder</p>
+</footer>
+</body>
+</html>
