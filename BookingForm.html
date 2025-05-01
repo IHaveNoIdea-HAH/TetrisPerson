@@ -147,9 +147,10 @@ footer {
 	font-weight: bold;
 }
 
-input[type=text],select {
+input[type=text],select { /*W3Schools (2019b). CSS Forms. [online] W3schools.com. Available at: https://www.w3schools.com/css/css_form.asp.*/
     width: 100%;
     padding: 12px 20px;
+	margin: 8px 0;
     display: inline-block;
     border: 1px solid #3e8e41;
     box-sizing: border-box;
@@ -159,7 +160,7 @@ input[type=text],select {
 <body>
 
 <ul>
-	<img src="CHICKEN.jpg" alt="chicken" style="width:104px;height:106px;float:left;margin-right:50px;">
+	<a href="index.html"><img src="CHICKEN.jpg" alt="chicken" style="width:104px;height:106px;float:left;margin-right:50px;"></a>
 	<li><a href="#AboutUs">About Us</a></li>
 	<li><a href="PricingNbooking.html">Pricing and Bookings</a></li>
 	<li><a href="#Our Products">Our Products</a></li>
@@ -168,9 +169,20 @@ input[type=text],select {
 	<li style="float: right;"><a href="#Signin">Sign in</a></li>
 </ul>
 <div class="container">
-	<div class="item what">what</div>
-	<div class="item what2">what</div>
-	<div class="item what3">what</div>
+	<div class="item what">
+		<p>Loyality Program gives 20% off!</p>
+		<p>Only having to pay £10 every month</p>
+		<p>You have top priotity, being able to get a haircut faster than regular customers</p>
+	</div>
+	<div class="item what2">
+		<h3>Open Between:</h3>
+		<p>Monday-Friday</p>
+		<p>3pm - 10pm</p>
+	</div>
+	<div class="item what3">
+		<h1>Student Discount!!!</h1>
+		<p>Save 20% off for being a student!!</p>
+	</div>
 </div>
 
 <a href="#StudentProgram" class="StudentProgramButton">Student Program Sign up</a>
@@ -222,6 +234,9 @@ input[type=text],select {
 
     <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="The email..">
+
+	<label for="Phone">Phone Number</label>
+    <input type="text" id="phone" name="phone" placeholder="Phone number..">
 
     <label for="student">Are You A student</label>
     <select id="student" name="student">

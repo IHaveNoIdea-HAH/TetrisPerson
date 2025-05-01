@@ -39,16 +39,10 @@ Made 2 other Pages.
 ## Instructions to setting up the website.
 In order to run the project.  
 Download the zip file from github.  
-Once downloaded. Unzip the file and open the "TetrisPerson-main" folder.  
-Click "Index.html" to begin your experience with the website.  
+Once downloaded. Unzip the file and open the "html" folder.
+Click "UserExperience.html" to begin your experience with the website.
 
-Another way to start up the website is trhough using this link: https://ihavenoidea-hah.github.io/TetrisPerson/
 
-# Things needed to be finished
-A footer  
-Proper pictures  
-Better design to making the website more appealing.  
-More interactive and responsive webpage.  
 # Reference list  
 Slaying The Dragon (2022). Learn CSS Positioning Quickly With A Real World Example. YouTube. Available at: https://www.youtube.com/watch?v=MxEtxo_AaZ4.W3School (2020).   
 CSS object-fit Property. [online] www.w3schools.com. Available at: https://www.w3schools.com/css/css3_object-fit.asp.W3Schools (2020).  

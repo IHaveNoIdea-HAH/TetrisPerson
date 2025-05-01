@@ -59,6 +59,8 @@ li a:hover {
 	font-size:30px;
 	align-items: center;
 	height: 500px;
+	position: relative;
+	padding-bottom: 70px;
 }
 .gallery {
 	width: 400px;
@@ -97,6 +99,41 @@ li a:hover {
 	background-color: #3e8e41;
 	transform: scale(0.98);
 }
+
+
+/*Article Buttons is using the StudentProgram code*/
+
+.article-button {
+	display: block;
+	width: 150px;
+	height: 40px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.2s;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	margin: 20px auto;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+}
+.article-button:hover {
+	background-color: #45a049;
+	transform: scale(1.05);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.article-button:active {
+	background-color: #3e8e41;
+	transform: scale(0.98);
+}
+
 .item {
 	display: block;
 	background-color:red;
@@ -167,7 +204,8 @@ footer {
 <body>
 
 <ul>
-	<img src="CHICKEN.jpg" alt="chicken" style="width:104px;height:106px;float:left;margin-right:50px;">
+	<a href="index.html"><img src="CHICKEN.jpg" alt="chicken" style="width:104px;height:106px;float:left;margin-right:50px;"></a> <!--Logo can be pressed to go menu-->
+	<li><a href="index.html">Home</a></li>
 	<li><a href="#AboutUs">About Us</a></li>
 	<li><a href="PricingNbooking.html">Pricing and Bookings</a></li>
 	<li><a href="#Our Products">Our Products</a></li>
@@ -176,9 +214,18 @@ footer {
 	<li style="float: right;"><a href="#Signin">Sign in</a></li>
 </ul>
 <div class="container">
-	<div class="item what">what</div>
-	<div class="item what2">what</div>
-	<div class="item what3">what</div>
+	<div class="item what">
+		<p>Loyality Program Gives</p>
+	</div>
+	<div class="item what2">
+		<h3>Open Between:</h3>
+		<p>Monday-Friday</p>
+		<p>3pm - 10pm</p>
+	</div>
+	<div class="item what3">
+		<h1>Student Discount!!!</h1>
+		<p>Save 20% off for being a student!!</p>
+	</div>
 </div>
 
 <a href="#StudentProgram" class="StudentProgramButton">Student Program Sign up</a>
@@ -226,14 +273,18 @@ footer {
 
 <div class ="Articles">
 	<div>
-		<img src="CHICKEN.jpg" alt="chicken" style="width: 100px;height: 100px;margin: 10px;">
-		<p>Article 1</p>
-		<P>Something about articles</P>
+		<p>Haircut</p>
+		<h2>£15</h2>
+		<P>You get a haircut</P>
+		<a href="BookingForm.html" class="article-button">Select</a>
 	</div>
 	<div>
-		<img src="CHICKEN.jpg" alt="chicken" style="width: 100px;height: 100px;margin: 10px;">
-		<p>Article 2</p>
-		<P>Something about articles</P>
+	
+		<p>Haircut and Beards</p>
+		<h2>£25</h2>
+		<P>You get a haircut</P>
+		<P>You get a Beard cut</P>
+		<a href="BookingForm.html" class="article-button">Select</a>
 	</div>
 
 </div>

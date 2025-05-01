@@ -8,7 +8,7 @@
 }
 body {
 	background-color: #ffeaca;
-	padding-bottom: 100px;
+	padding-bottom: 100px; 
 }
 
 ul {
@@ -85,7 +85,7 @@ li a:hover {
 	text-align: center;
 
 }
-.StudentProgramButton {
+.StudentProgramButton { /*W3Schools (2024). HTML button tag. [online] www.w3schools.com. Available at: https://www.w3schools.com/tags/tag_button.asp.*/
 	display: block;
 	position: relative;
 	width: 200px;
@@ -155,7 +155,7 @@ footer {
 }
 
 .image-grid{
-	display: flex;
+	display: flex; /*W3Schools (2019). CSS Flexbox (Flexible Box). [online] W3schools.com. Available at: https://www.w3schools.com/css/css3_flexbox.asp.*/
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-top: 20px;
@@ -169,7 +169,7 @@ footer {
 .gallery-image{
 	width: 100%;
 	height: 180px;
-	object-fit: cover;
+	object-fit: cover; /* W3School (2024b). CSS object-fit Property. [online] www.w3schools.com. Available at: https://www.w3schools.com/css/css3_object-fit.asp.*/
 	border: 3px solid #333;
 }
 .image-caption {
@@ -182,7 +182,7 @@ footer {
 <body>
 
 <ul>
-	<img src="CHICKEN.jpg" alt="chicken" style="width:104px;height:106px;float:left;margin-right:50px;">
+	<a href="index.html"><img src="CHICKEN.jpg" alt="chicken" style="width:104px;height:106px;float:left;margin-right:50px;"></a>
 	<li><a href="#AboutUs">About Us</a></li>
 	<li><a href="PricingNbooking.html">Pricing and Bookings</a></li>
 	<li><a href="#Our Products">Our Products</a></li>
@@ -191,11 +191,21 @@ footer {
 	<li style="float: right;"><a href="#Signin">Sign in</a></li>
 </ul>
 <div class="container">
-	<div class="item what">what</div>
-	<div class="item what2">what</div>
-	<div class="item what3">what</div>
+	<div class="item what">
+		<p>Loyality Program gives 20% off!</p>
+		<p>Only having to pay £10 every month</p>
+		<p>You have top priotity, being able to get a haircut faster than regular customers</p>
+	</div>
+	<div class="item what2">
+		<h3>Open Between:</h3>
+		<p>Monday-Friday</p>
+		<p>3pm - 10pm</p>
+	</div>
+	<div class="item what3">
+		<h1>Student Discount!!!</h1>
+		<p>Save 20% off for being a student!!</p>
+	</div>
 </div>
-
 <a href="#StudentProgram" class="StudentProgramButton">Student Program Sign up</a>
 
 
@@ -206,8 +216,8 @@ footer {
 		<div class="image-grid">
 
 			<div class="image-container">
-				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image">
-				<p class="image-caption">Image 1</p>
+				<img src="CHICKEN.jpg" alt="chicken" class="gallery-image"> <!--Add images to your own liking-->
+				<p class="image-caption">Image 1</p> <!--Name.jpg must be the same as the picture, Alt chicken can be changed-->
 			</div>
 
 			<div class="image-container">
