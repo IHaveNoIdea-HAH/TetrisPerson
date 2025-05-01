@@ -1,7 +1,7 @@
-This project showcases the website using HMTL and CSS.
-Throughout the journey of making this website. I had to multitask between making the website and doing other assignments at the same time. Although it was stressful at first, I still believe I can manage (I think).
-Des
+#USER EXPERIENCE
 
+
+##Info about the website
 
 In order to run project. 
 #STEP 1 
